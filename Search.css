@@ -1,0 +1,86 @@
+#navbar{
+    position: relative;
+    color: blue;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+#navbar ul li{
+    display: inline;
+}  
+
+#navbar ul li a{
+    padding-right: 10px;
+    font-weight: bold;
+    color: grey;
+    font-size: 1.5vh;
+    font-family: sans-serif;
+    text-decoration: none;
+} 
+
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+
+#Google-image{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.main{
+    display: flex;
+    justify-content:center;
+    padding: 2vh;
+}
+
+.main input[type="text"]{
+    border: none;
+    padding: 10px 30px 10px 40px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1.5px solid hsl(0, 0%, 89%);
+    border-radius: 25px;
+    outline:none;
+    background: url(search.jpg), url(mic.JPG);
+    background-position: 5px center, 545px 1px;
+    background-repeat: no-repeat, no-repeat;
+    
+}
+
+.main input[type="text"]:hover{
+    outline: 1px solid hsl(0, 0%, 90%);
+}
+
+#search{
+    position: relative;
+    bottom: 10px;
+    left: 20%;
+    padding: 10px;
+    margin: 20px 20px 10px 20px;
+    border: none;
+    background-color: white;
+    
+}
+
+#feeling{
+    position: relative;
+    bottom: 10px;
+    left: 20%;
+    padding: 10px;
+    margin: 20px 20px 10px 20px;
+    border: none;
+    background-color: white;
+}
+
+
+#search:hover,#feeling:hover{
+    outline: 1px solid hsl(0, 0%, 88%);
+}
+
+
+
+
